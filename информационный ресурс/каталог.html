@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	 	<link rel="stylesheet" type="text/css" href="каталог.css">
+	<title>Планета колбас 58</title>
+</head>
+<body>
+		  <div class="shapka">
+        <div class="head1">
+          <a href="index.html">
+             <img src="logo/колбасалого.png" width="220" height="70" alt="">
+          </a>
+        </div>
+        <div class="head2">
+        </div> 
+        <div class="head3">
+          <p><a href=index.html>главная</a></p>
+        </div> 
+        <div class="head4">
+          <p><a href="каталог.html">каталог</a></p>
+        </div> 
+        <div class="head5">
+          <p><a href="заказ.html">заказ</a></p>
+        </div> 
+        <div class="head6">
+          <p><a href="аккаунт.html">аккаунт</a></p>
+        </div> 
+        <div class="head7">
+          <p><a href="контакты.html">контакты</a></p>
+        </div> 
+    </div>
+
+
+      <div class="wrapper2">
+        <!--Создаем классы для размещенеия заголовка-->
+        <div class="namefilt">
+          <div class="namefilt1"></div>
+          <div class="namefilt2">
+            <p>КАТАЛОГ</p>
+          </div>
+          <div class="namefilt3"></div>
+        </div>
+        <!--С помощью фреймворка создаем фильтр по каталогу-->
+        <div class="filters-all">
+          <div class="section">
+             <!--Создаем атрибуты-->
+            <input type="radio" id="myaso" name="categories" value="myaso">
+            <input type="radio" id="milk" name="categories" value="milk">
+            <input type="radio" id="moroz" name="categories" value="moroz">
+            <input type="radio" id="all" name="categories" value="all" checked>
+           <!--Задаем список с видами продукции-->
+            <ol class="filters">
+              <li>
+                <div id="square0"></div>
+              </li>
+             <li>
+               <div id="square3"> <label for="myaso">мясо</label></div>
+              </li>
+              <li>
+                <div id="square4"><label for="milk">молоко</label></div>
+              </li>
+              <li>
+                 <div id="square5"><label for="moroz">заморозка</label></div>
+              </li>
+              <li>
+                <div id="square6"><label for="all">все</label></div>
+              </li>
+              <li>
+                <div id="square10"> </div>
+              </li>
+            </ol>
+           <!--Создаем 4 карточки товаров с фотографией, названием и ценой-->
+            <ol class="plumbing">
+           <!--Указываем также к какой категории относится товар-->
+              <li class="product" data-category="myaso">
+                <article>
+                  <figure>
+                    <img src="img/мясо1.jpg">
+                    <figcaption>
+                      <h2 class="post-title">
+                        <a href="#">РЕБРО СВИННОЕ</a>
+                      </h2>
+                      <ol class="post-categories">
+                        <li>
+                          <p>Цена: 138р</p>
+                        </li>
+                      </ol>  
+                    </figcaption>
+                  </figure>
+                </article>
+              </li>
+
+              <li class="product" data-category="myaso">
+                <article>
+                  <figure>
+                    <img src="img/мясо2.jpg">
+                    <figcaption>
+                      <h2 class="post-title">
+                        <a href="#">ДОМАШНЯЯ ВЕТЧИНА</a>
+                      </h2>
+                      <ol class="post-categories">
+                        <li>
+                          <p>Цена: 539р</p>
+                        </li>
+                      </ol>
+                    </figcaption>
+                  </figure>
+                </article>
+              </li>
+
+              <li class="product" data-category="milk">
+                <article>
+                  <figure>
+                    <img src="img/молоко1.jpg">
+                    <figcaption>
+                      <h2 class="post-title">
+                        <a href="#">МОЛОКО ЭКОНОМ</a>
+                      </h2>
+                      <ol class="post-categories">
+                        <li>
+                          <p>Цена: 64р</p>
+                        </li>
+                      </ol>
+                    </figcaption>
+                  </figure>
+                </article>
+              </li>
+
+              <li class="product" data-category="myaso">
+                <article>
+                  <figure>
+                    <img src="img/мясо3.jpg">
+                    <figcaption>
+                      <h2 class="post-title">
+                        <a href="#">СУХАЯ КОЛБАСА</a>
+                      </h2>
+                      <ol class="post-categories">
+                        <li>
+                          <p>Цена: 511р</p>
+                        </li>
+                      </ol>
+                    </figcaption>
+                  </figure>
+                </article>
+              </li>
+
+
+ <li class="product" data-category="myaso">
+                <article>
+                  <figure>
+                    <img src="img/мясо4.jpg">
+                    <figcaption>
+                      <h2 class="post-title">
+                        <a href="#">ОКОРОК СВИННОЙ</a>
+                      </h2>
+                      <ol class="post-categories">
+                        <li>
+                          <p>Цена: 511р</p>
+                        </li>
+                      </ol>  
+                    </figcaption>
+                  </figure>
+                </article>
+              </li>
+
+              <li class="product" data-category="milk">
+                <article>
+                  <figure>
+                    <img src="img/молоко2.jpg">
+                    <figcaption>
+                      <h2 class="post-title">
+                        <a href="#">МОЛОКО ТОПЛЕНОЕ "ПЕСТРАВКА</a>
+                      </h2>
+                      <ol class="post-categories">
+                        <li>
+                          <p>Цена: 67р</p>
+                        </li>
+                      </ol>
+                    </figcaption>
+                  </figure>
+                </article>
+              </li>
+
+              <li class="product" data-category="moroz">
+                <article>
+                  <figure>
+                    <img src="img/полуфабрикаты1.jpg">
+                    <figcaption>
+                      <h2 class="post-title">
+                        <a href="#">ЧЕБУПЕЛИ С МЯСОМ</a>
+                      </h2>
+                      <ol class="post-categories">
+                        <li>
+                          <p>Цена: 93р</p>
+                        </li>
+                      </ol>
+                    </figcaption>
+                  </figure>
+                </article>
+              </li>
+
+              <li class="product" data-category="myaso">
+                <article>
+                  <figure>
+                    <img src="img/мясо5.jpg">
+                    <figcaption>
+                      <h2 class="post-title">
+                        <a href="#">ВЕТЧИНА БОЯРСКАЯ</a>
+                      </h2>
+                      <ol class="post-categories">
+                        <li>
+                          <p>Цена: 462р</p>
+                        </li>
+                      </ol>
+                    </figcaption>
+                  </figure>
+                </article>
+              </li>
+
+
+
+
+ <li class="product" data-category="moroz">
+                <article>
+                  <figure>
+                    <img src="img/полуфабрикаты2.jpg">
+                    <figcaption>
+                      <h2 class="post-title">
+                        <a href="#">ПЕЛЬМЕНИ "ЛЮБИМАЯ ЛОЖКА"</a>
+                      </h2>
+                      <ol class="post-categories">
+                        <li>
+                          <p>Цена: 153р</p>
+                        </li>
+                      </ol>  
+                    </figcaption>
+                  </figure>
+                </article>
+              </li>
+
+              <li class="product" data-category="moroz">
+                <article>
+                  <figure>
+                    <img src="img/полуфабрикаты3.jpg">
+                    <figcaption>
+                      <h2 class="post-title">
+                        <a href="#">БУЛЬМЕНИ С ГОВЯДИНОЙ</a>
+                      </h2>
+                      <ol class="post-categories">
+                        <li>
+                          <p>Цена: 107р</p>
+                        </li>
+                      </ol>
+                    </figcaption>
+                  </figure>
+                </article>
+              </li>
+
+              <li class="product" data-category="myaso">
+                <article>
+                  <figure>
+                    <img src="img/мясо6.jpg">
+                    <figcaption>
+                      <h2 class="post-title">
+                        <a href="#">ЗАЛИВНОЕ ПО-ЦАРСКИ</a>
+                      </h2>
+                      <ol class="post-categories">
+                        <li>
+                          <p>Цена: 411р</p>
+                        </li>
+                      </ol>
+                    </figcaption>
+                  </figure>
+                </article>
+              </li>
+
+              <li class="product" data-category="myaso">
+                <article>
+                  <figure>
+                    <img src="img/мясо7.jpg">
+                    <figcaption>
+                      <h2 class="post-title">
+                        <a href="#">КОЛБАСА ПОЛУКОПЧЕННАЯ</a>
+                      </h2>
+                      <ol class="post-categories">
+                        <li>
+                          <p>Цена: 218р</p>
+                        </li>
+                      </ol>
+                    </figcaption>
+                  </figure>
+                </article>
+              </li>              
+            </ol>   
+          </div>
+        </div>
+
+
+
+        <div class="knopki">
+          <div class="knopki1">
+         </div>
+        <div class="knopki2">
+         <a href="прайслист.xls" download="">
+          <p>скачать прайлист</p>
+          </a>
+        </div>
+      </div>
+
+        <div class="knopki3">
+        </div>
+        </div>
+ 
+
+ <div class="podval">
+        <div class="podval1">
+             <h6>КОНТАКТЫ</h6>
+             <p>телефон: +7 (937) 448 55 96</p>
+             <p>почта: oct601@mail.ru</p>
+        </div>
+        <div class="podval2">
+        </div> 
+        <div class="podval3">
+            <h6>ПОМОЩЬ</h6>
+             <a href="поддержка.html"><p>поддержка</p></a>
+             <a href="соглашние.doc"><p>пользовательское соглашение</p></a>
+        </div> 
+    </div>
+
+    
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

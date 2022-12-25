@@ -1,0 +1,155 @@
+*{
+	margin: 0px;
+}
+/*Создаем грид с 4 блоками. Задаем ему цвет фона*/
+.shapka{
+	background-color: #AF5353;
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-template-rows: repeat(1, 100px);
+}
+/*Меняем цвет ссылку и убираем её подчеркивание*/
+.shapka a{
+	color: white;
+    text-decoration: none;
+}
+.shapka a:hover{
+	color: #D9D9D9;
+
+}
+
+.head1{
+	margin: auto;
+	margin-left: 30px;
+}
+
+.head3, .head4, .head5, .head6, .head7{
+	/*Размещаем содержимое*/
+	margin: auto;
+	font-size: 25px;
+
+}
+.namecon{
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: repeat(1, 50px);
+	padding-bottom: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	padding-bottom: 60px;
+}
+.text{
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+}
+.contact{
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: repeat(1, 1fr);
+
+}
+
+.podval{
+	/*Задем параметры для трех гридов*/
+	display: grid;
+	grid-template-columns: 2fr 1fr 2fr;
+	grid-template-rows: repeat(1, 90px);
+    color: white;
+    background-color: #454545;
+    padding-top: 10px;
+     line-height: 0.4;
+}
+.podval1{
+	 text-align: left;
+    padding-left: 20px;
+ }
+.podval h6{
+	margin-bottom: 20px;
+}
+.podval3{
+	text-align: right;
+	padding-right: 20px;
+}
+
+.podval a{
+	color: white;
+    text-decoration: none;
+}
+.podval a:hover{
+	color: #D9D9D9;
+
+}
+
+.nameex{
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: repeat(1, 50px);
+	padding-bottom: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	padding-bottom: 60px;
+	padding-top: 20px;
+}
+
+.ex2{
+	border-radius: 100px;
+	background-color: #AF5353;
+}
+.ex3{
+	border-radius: 100px;
+	background-color: #AF5353;
+}
+
+.ex4{
+	border-radius: 100px;
+	background-color: #AF5353;
+}
+
+.ex5{
+	border-radius: 100px;
+	background-color: #AF5353;
+}
+
+.ex{
+	display: grid;
+	grid-gap: 15px;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(1, 100px);
+	padding-bottom: 20px;
+	text-align: center;
+	font-weight: normal;
+	font-size: 23px;
+	padding-bottom: 60px;
+	padding-top: 20px;
+color: white;
+}
+
+.ex2 p{
+margin-top: 30px;
+
+}
+
+.ex3 p{
+margin-top: 30px;
+
+}
+.ex4 p{
+margin-top: 10px;
+
+}
+.ex5 p{
+margin-top: 10px;
+
+}
+.ex a{
+	height: 100px;
+	color: white;
+    text-decoration: none;
+}
+.ex a:hover{
+	color: #D9D9D9;
+
+}
